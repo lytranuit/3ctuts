@@ -1,0 +1,803 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,vietnamese);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 20, 2015, 11:32:53 AM
+    Author     : Lytran
+*/
+body{
+    background: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 1.428571429;
+}
+//////////News//////////////
+
+
+.div-w-user{
+    margin-left: 15px;
+    white-space: nowrap;
+    width: 100%;
+}
+.a-img-user{
+    display: inline-block;
+    margin-right: 15px;
+}
+.a-w-user{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    max-width: 90%;
+    height: 22px;
+}
+.widget_news_lq > p{
+    width: 150px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(51, 39, 18);
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-bottom: 30px;
+}
+.news_lq{
+    min-height: 100px;
+}
+.news_lq img{
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin: 0px 10px 0px 0px;
+}
+.caption_lq p {
+    font-size: 12px;
+
+}
+
+.title_lq > span{ 
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.widget_news_lq{
+    //overflow-y: scroll;
+    //max-height: 900px;
+}
+.caption p a{
+    font-size: 15px;
+    font-weight: bold;
+}
+.thumbs_div{
+    width: 200px;
+    float: left;
+    height: 120px;
+    margin: 0px 10px; 
+    position: relative;
+}
+ul#forum li a{
+    color: #CCBE06;
+    font-weight: 500;
+}
+.root > li{
+    cursor: pointer;
+}
+.video_body-content{
+    font-size: 12px;
+    color: black;
+}
+.video_body-auth{
+    font-size: 11px;
+    color: gray;
+}
+.thumbs_div .icon-play-cate{
+    background: url("../images/btn-play.png") no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 39%;
+    top: 31%;
+    transition:all 500ms ease-in-out;
+}
+.thumbs_div > a:hover .icon-play-cate{
+    color:#fff;
+    opacity:1;
+}
+.user-manager a{
+    width: 100%;
+    display: block;
+}
+.user-manager img{
+    width: 100%;
+
+}
+.user-manager li{
+    width: 100%;
+    display: block;
+    padding: 10px 0px;
+}
+.img_comment a{
+    width: 35px;
+    display: block;
+    height: 35px;
+
+}
+.col-first p {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px 0px 0px;
+}
+.col-first hr{
+    border-top: 1px solid #010000;
+
+}
+///
+#loginbox {
+    margin-top: 30px;
+}
+#loginbox > div:first-child {        
+    padding-bottom: 10px;    
+}
+
+.iconmelon {
+    display: block;
+    margin: auto;
+}
+
+#form > div {
+    margin-bottom: 25px;
+}
+
+#form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;                        
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+ul,li{
+    list-style: none;
+}
+
+#top-header{
+    background-color: #231f20;
+}
+#header {
+    background-color: #444445;
+}
+.navbar-inverse{
+    background-color: transparent;
+    white-space: nowrap;
+}
+ul#forum li.end-border{
+    border-left: 0px solid white;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+
+ul#forum li{
+    list-style: none;
+    float: left;
+    margin: 18px 20px 0 0;
+    height: 24px;
+    white-space: nowrap;
+    color: white;
+    padding-left:40px; 
+    padding-right: 10px;
+    border-left: 1px solid white;
+}
+#software-home{
+    background: #EEE url(../images/background.jpg) no-repeat top center;
+    display: block;
+    background-repeat:no-repeat;
+    background-position:center;
+    min-height: 550px;
+    -webkit-box-shadow: 0px 0px 51px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 51px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 51px -3px rgba(0,0,0,0.75);
+}
+#banner{
+    background: url(../images/banner.jpg) no-repeat;
+    display: block;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    min-height: 75px;
+
+}
+
+#banner{
+    position: relative;
+}
+
+div#news-page , div#cate-page{
+    padding: 20px 0px;
+}
+.video-info{
+    padding: 0px 15px 15px 15px;
+}
+.watch-view .pull-right{
+    width: 100px;
+    display: block;
+}
+#solugan h1{
+    font-size: 48px;
+    height: 70px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+#more img{
+    padding-left:50%;
+    margin: -35px;
+    padding-top: 60px;
+}
+#main{
+    margin:10px 0px;
+
+}
+.scale {
+    margin: 20px auto;
+}
+div#tintuc {
+    background: #e6e7e8;
+    border-bottom: 1px solid black;
+}
+.tieude-home{
+    font-size: 24px;
+    padding: 20px 0px 0px 10px;
+}
+.tieude-home span{
+
+}
+footer .footer-title{
+    border: 1px solid transparent;
+    -webkit-border-image: url('../images/hr-lienhe.jpg') 27 27 27 27 stretch stretch; /* Safari 5 */
+    -o-border-image: url("../images/hr-lienhe.jpg") 27 27 27 27 stretch stretch; /* Opera */
+    border-image: url('../images/hr-lienhe.jpg') 27 27 27 27 stretch stretch;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 0px 50px 10px 0px;
+}
+/* footer middle bar */
+
+footer .middle {
+    background: #333;
+    border-bottom: 1px solid #424242;  
+}
+footer .middle .container {
+    padding: 24px 0;
+
+}
+.footer-menu h2 {
+    font-size: 17px;
+    color: #ececec;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.footer-menu p {
+    color: white;
+    text-align: justify;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: rgba(253, 253, 253, 0.83);
+}
+
+
+
+/* footer bottom bar */
+
+footer .bottom {
+    background: #1b1b1b;
+    padding: 22px 10px;
+    font-size: 14px;
+    color: #898989;
+    text-align: center;
+}
+.view {
+    width: 20%;
+    //margin: 10px;
+    float: left;
+    border: 0px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+    -moz-box-shadow: 1px 1px 2px #e6e6e6;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: pointer;
+}
+li.bg_thumbs{
+    list-style: none;
+}
+@media (min-width: 768px){
+    .dropdown-menu-large {
+        min-width: 940px;
+    }
+}
+.da-thumbs{
+    padding:0px 0px;
+}
+.da-thumbs .col-md-3{
+    padding:0px;
+}
+.view p {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 50px;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    line-height: 30px;
+}
+
+.view p strong{
+    display: block;
+    font-size: 36px;
+}
+.view p span{
+    display:block;
+    font-style: italic;
+}
+@media (min-width:996px){
+    .view p {
+        height: 100px;
+        line-height: 50px;
+    }
+    .view p strong{
+        font-size: 44px;
+    }
+    .view p span{
+        font-size: 34px;
+
+    }
+}
+/**
+ * The cards
+ *
+ * Each card plays home to a front and back. I've set them up as squares here
+ * by using the padding technique, but you may set them up in any dimensions
+ * you like based on your site design.
+ */
+.card {
+    position: relative;
+    float: left;
+    padding-bottom: 17%;
+    text-align: center;
+}
+.card__front img.img-responsive {
+    width: inherit;
+}
+/* card text */
+.card__text {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 20px;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    line-height: 20px;
+}
+/* card fronts and backs */
+.card__front,
+.card__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card__front,
+.card__back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.card__front {
+    background-color: transparent;
+    opacity: .9;
+}
+
+.card__back {
+    opacity: .9;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+/* hover effect */
+.card.effect__hover:hover .card__front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.card.effect__hover:hover .card__back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+}
+////////// video thumbs - Trang chu ////////////
+.video-list-thumbs > li{
+    margin-bottom:12px;
+}
+.video-list-thumbs > li:last-child{}
+.video-list-thumbs > li > a{
+    display:block;
+    position:relative;
+    background:url("../images/bg-boxvideo.png") repeat;
+    color: #fff;
+    padding: 8px;
+    transition:all 500ms ease-in-out;
+    opacity: 0.9;
+}
+.video-list-thumbs > li > a:hover{
+    box-shadow:0 2px 5px rgba(0,0,0,.3);
+    text-decoration:none
+}
+.video-list-thumbs h2{
+    bottom: 0;
+    font-size: 14px;
+    height: 33px;
+    margin: 8px 0 0;
+}
+
+.video-list-thumbs .icon-play {
+    background: url("../images/btn-play.png") no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 42%;
+    top: 31%;
+    transition: all 500ms ease-in-out;
+}
+.video-list-thumbs > li > a:hover .icon-play{
+    color:#fff;
+    opacity:1;
+}
+.video-list-thumbs .duration{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    left: 12px;
+    line-height: 13px;
+    padding: 2px 3px 1px;
+    position: absolute;
+    top: 12px;
+    transition:all 500ms ease;
+}
+.video-list-thumbs > li > a:hover .duration{
+    background-color:#000;
+}
+@media (min-width:320px) and (max-width: 480px) { 
+    .video-list-thumbs .icon-play{
+        height: 24px;
+        width: 24px;
+        right: 45%;
+        top: 27%;
+    }
+    .video-list-thumbs h2{
+        bottom: 0;
+        font-size: 12px;
+        height: 22px;
+        margin: 8px 0 0;
+    }
+}
+@media (min-width:480px) and (max-width: 992px) { 
+    .video-list-thumbs .icon-play{
+        font-size: 50px;
+        right: 43%;
+        top: 30%;
+    }
+    .video-list-thumbs h2{
+        bottom: 0;
+        font-size: 12px;
+        height: 22px;
+        margin: 8px 0 0;
+    }
+}
+@media (min-width:992px) and (max-width: 1200px){
+    .video-list-thumbs img{
+        width: 100%;
+    }
+    .video-list-thumbs .icon-play{
+        font-size: 50px;
+        right: 46%;
+        top: 36%;
+    }
+}
+.carousel-control.left,.carousel-control.right {background-image:none; margin-top: 2%;}
+.carousel-control.left{
+    margin-left: -5%;
+}
+.carousel-control.right {
+    margin-right: -15%;
+}
+.btn-left{
+    background: url("../images/btn-left.png") no-repeat;
+
+}
+.btn-right{
+    background: url("../images/btn-right.png") no-repeat;
+}
+.btn-left,.btn-right{
+    display: block;
+    width: 53px;
+    height: 73px;
+    background-size: 100%;
+    color: black;
+    margin-top: 60%;
+}
+.title{
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 21px;     /* fallback */
+    height: 52px;      /* fallback */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    padding:10px;
+    margin-bottom: -5px;
+}
+#sortable .pull-right{
+    width: 100px;
+}
+#content-video{
+    min-height: 150px;
+}
+#comments{
+    background-color: white;
+}
+object#player_api{
+    height: 400px;
+}
+.soft1{
+    background: #8bc48d;
+}
+.soft2{
+    background: #306c92;
+}
+.soft3{
+    background: #ea6160;
+}
+.soft4{
+    background: #796c6c;
+}
+.soft5{
+    background: #c0d4d2;
+}
+.soft6{
+    background: #6e733a;
+}
+.soft7{
+    background: #bf7147;
+}
+.soft8{
+    background: #b5b511;
+}
+.soft9{
+    background: #6e85d1;
+}
+.soft10{
+    background: #ce7333;
+}
+.lib-li li{
+    padding: 5px;
+}
+.video_manager button{
+    margin: 5px 0px;
+}
+.video_manager .list-group-item-text{
+    color: black;
+}
+a.video_manager{
+    height:auto;
+    min-height:150px;
+}
+.stars {
+    margin:20px auto 1px;    
+}
+.tags_cate{
+    display: inline-block;
+    float: left;
+}
+.num_result{
+    display: inline-block;
+    float: right;
+}
+.num_result p{
+    text-align: right;
+    font-size: 11px;
+    font-weight: normal;
+    color: #555;
+    white-space: nowrap;
+}
+////////////////////////////////////
+
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+/* Profile container */
+.profile {
+    margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+    margin-right: 0px;
+}
+
+.profile-usermenu {
+    margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+    border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+    color: #93a3b5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+    background-color: #fafcfd;
+    color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+    color: #5b9bd1;
+    background-color: #f6f9fb;
+    border-left: 2px solid #5b9bd1;
+    margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+}
+.container{
+    max-width: 970px;
+}
+.loading{
+    margin: 50px auto;
+}
+.video_body{
+    min-height: 1070px;
+}
+#social:hover {
+    -webkit-transform:scale(1.1); 
+    -moz-transform:scale(1.1); 
+    -o-transform:scale(1.1); 
+}
+#social {
+    -webkit-transform:scale(0.8);
+    /* Browser Variations: */
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8); 
+    -webkit-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}           
+/* 
+    Only Needed in Multi-Coloured Variation 
+*/
+.social-fb:hover {
+    color: #3B5998;
+}
+.social-tw:hover {
+    color: #4099FF;
+}
+.social-gp:hover {
+    color: #d34836;
+}
+.social-em:hover {
+    color: #f39c12;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+.alert{
+    text-align: center;
+}
